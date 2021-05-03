@@ -15,10 +15,10 @@ export const useMainStore = defineStore({
     name: 'Eduardo',
   }),
   getters: {
-    doubleCount() {
+    doubleCount(): number {
       return this.counter * 2;
     },
-    doubleCountPlusOne() {
+    doubleCountPlusOne(): number {
       return this.doubleCount * 2 + 1;
     },
   },
