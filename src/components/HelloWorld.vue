@@ -5,6 +5,7 @@
     <button @click="increment()">Increment</button>
     <button @click="resetCount()">Reset Count</button>
   </div>
+  <p>This is a test</p>
 </template>
 
 <script lang="ts">
